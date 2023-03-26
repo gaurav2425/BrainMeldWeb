@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap');
+.nav_icon{
+  color: #ffffff;
+  font-size: 55px;
+}
+
+.app_bar{
+  background: #000000;
+}
+
+.menu_header{
+  justify-content: flex-end;
+  align-items: center;
+  display: flex;
+}
+
+.menu1{
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  /* margin: 15px; */
+  font-size: 45px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  /* margin: 10px; */
+}
+
+.brainmeld_txt{
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.menu_container{
+  /* background-color: aqua; */
+  /* padding: 10px; */
+  margin: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgb(56, 55, 55);
+}
+.menu_container2{
+   /* background-color: aqua; */
+  margin: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgb(56, 55, 55);
+}
+.menu2{
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  /* margin: 15px; */
+  font-size: 20px;
+  margin-top: 5px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  /* margin: 10px; */
+}
+.menu2premium{
+  color: #ff8d02;
+  font-family: "Poppins", sans-serif;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  /* margin: 15px; */
+  font-size: 20px;
+  margin-top: 5px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.logo{
+  width: 67px;
+  height: 60px;
+  margin-left: 10px;
+}
