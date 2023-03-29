@@ -171,14 +171,6 @@ function Home() {
                   ></Bar>
                 );
               })}
-              <Bar></Bar>
-              <Bar></Bar>
-              <Bar></Bar>
-              <Bar></Bar>
-              <Bar></Bar>
-              <Bar></Bar>
-              <Bar></Bar>
-              <Bar></Bar>
             </div>
           </div>
           <div className={styles.footer_container}>

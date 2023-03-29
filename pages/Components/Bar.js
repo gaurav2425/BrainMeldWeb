@@ -8,8 +8,13 @@ function Bar({ question, ans }) {
   return (
     <div className={styles.bar_container}>
       <div className={styles.bar_sub_container}>
-        <div className={styles.bar_heading_container}>
-          <h1 style={{ fontSize: 33, fontWeight: 400 }}>{question}</h1>
+        <div
+          className={styles.bar_heading_container}
+          onClick={() => {
+            setOpen(!open);
+          }}
+        >
+          <h1>{question}</h1>
           {open == false ? (
             <IconButton
               onClick={() => {
