@@ -96,7 +96,7 @@ export default function PersistentDrawerLeft() {
         anchor="left"
         open={open}
       >
-        <div style={{ background: "#000000", height: "100%" }}>
+        <div style={{ background: "#000000", height: "100vh" }}>
           <div
             style={{ height: 80, background: "#000000" }}
             className={styles.menu_header}
@@ -105,6 +105,7 @@ export default function PersistentDrawerLeft() {
               src={require("../../public/logo.png")}
               className={styles.logo}
             /> */}
+            <h1 className={styles.menu_header_txt}>BrainMeld</h1>
             <IconButton onClick={handleDrawerClose}>
               <CloseIcon className={styles.nav_icon} />
             </IconButton>

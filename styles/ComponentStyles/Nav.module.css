@@ -10,9 +10,10 @@
 }
 
 .menu_header{
-  justify-content: flex-end;
+  justify-content: space-between;
   align-items: center;
   display: flex;
+  color: white;
 }
 
 .menu1{
@@ -31,6 +32,10 @@
   font-family: 'Inter', sans-serif;
   font-weight: 600;
   font-size: 20px;
+}
+.menu_header_txt{
+  margin-left: 20px;
+  font-family: 'Inter', sans-serif;
 }
 
 .menu_container{
